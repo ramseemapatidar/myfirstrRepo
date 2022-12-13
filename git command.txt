@@ -1,0 +1,44 @@
+git config --list
+
+##set email and username
+
+git config --global user.name "username"
+git config --global user.email "email@example.com"
+
+##check username and email
+
+git config user.name
+git config user.email
+
+##create file using git
+
+touch file1.text
+
+##git repo
+
+git status
+git init
+
+## git tracked
+
+git add
+
+## all file tracked new file or modify
+
+git add .
+
+## put in repo
+
+git commit -m "first commit"
+
+## telling the repo location
+
+git remote add origin https://github.com/ramseemapatidar/myfirstrRepo.git
+
+## git remote location chack
+
+git remote
+
+## push code in branch
+
+git push -u origin master
