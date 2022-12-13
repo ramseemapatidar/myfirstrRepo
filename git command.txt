@@ -41,4 +41,20 @@ git remote
 
 ## push code in branch
 
-git push -u origin master
+git push -u origin master 
+or
+git push
+
+## check previous commit oneline or filter
+
+git log
+git log --oneline
+git log --grep="first"
+git log --since="30/11/2022"
+
+## git brush zoom in /zoom out
+
+Ctrl+
+Ctrl-
+
+##
