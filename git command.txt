@@ -57,4 +57,19 @@ git log --since="30/11/2022"
 Ctrl+
 Ctrl-
 
-##
+## check repo
+
+git remote -v
+
+## create branch (jab bhi hum branch bnate h tb hum simply "git branch aur branchname" supose mujhe
+dev name ki branch banani h tb `git branch dev` esse dev name ki branch bn jayegi.
+## mujhe kisi commit se branch banani h tb `git log --oneline` ye run krenge fir jis bhi commit pr branch banani h uska 7 digit ka code put karenge `git branch dev2 095f898` es type se use krenge.
+## note : direct `git branch branchname` dene se jo bhi last commit hoga vha se branch banegi.
+
+git log --oneline
+git branch dev
+git branch dev 095f898 
+
+## swich to branch like master to dev
+
+git chackout dev
